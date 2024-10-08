@@ -8,7 +8,7 @@ import {Provider} from "react-redux"
 import axios from "axios"
 import store from "./redux/store"
 
-axios.defaults.baseURL="https://back-end-mern-fue4.onrender.com/api";
+axios.defaults.baseURL="https://server-back-t2ww.onrender.com/api";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
